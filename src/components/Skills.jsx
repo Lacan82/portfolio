@@ -10,8 +10,9 @@ import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
 import Windows from '../assets/windows-10.png';
 import Linux from '../assets/linux--v1.png';
-import AD from '../assets/active-directory.png'
-import Python from '../assets/python--v1.png'
+import AD from '../assets/active-directory.png';
+import Python from '../assets/python--v1.png';
+import Nginx from '../assets/nginx.png';
 
 const Skills = () => {
   return (
@@ -46,6 +47,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#77809a]'>
                   <img className='w-20 mx-auto' src={AD} alt="HTML icon" />
                   <p className='my-4'>Active Directory</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#77809a]'>
+                  <img className='w-20 mx-auto' src={Nginx} alt="HTML icon" />
+                  <p className='my-4'>Nginx</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#77809a]'>
                   <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
