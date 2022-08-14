@@ -8,7 +8,7 @@ import helpdesk from '../assets/helpdesk.jpg';
 
 const Experience = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='experience' className='w-full text-gray-300 bg-[#0a192f] py-10'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#64fcda]'>
@@ -31,7 +31,7 @@ const Experience = () => {
                 System Engineer
               </span>
               <div className='pt-8 text-center'>
-                System Engineer/Network Engineer for Satellite Audio distribution
+                System Engineer/Network Engineer for Satellite Audio distribution @ NPR
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Experience = () => {
                 Datacenter Technician
               </span>
               <div className='pt-8 text-center'>
-                Managed Service Provider for datacenter infrastructure. Equipment install in guidance with ticketing queue
+                Managed Service Provider for datacenter infrastructure. Equipment install in guidance with ticketing queue @ Datapipe
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Experience = () => {
                 DevOps
               </span>
               <div className='pt-8 text-center'>
-                Managed IT Operations, and build out data collection within AWS for IoT Devices.
+                Managed IT Operations, and build out data collection within AWS for IoT Devices. @ Hyperwave
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Experience = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Network Engineer
+                Network Engineer @ C & J Computing
               </span>
               <div className='pt-8 text-center'>
                 Provided Managed service support and network support to small businesses
@@ -103,7 +103,7 @@ const Experience = () => {
                 SysAdmin
               </span>
               <div className='pt-8 text-center'>
-               <p> Manage North America IT service for manufacturing company</p>
+               <p> Manage North America IT service for manufacturing company @ National Optronics</p>
               </div>
             </div>
           </div>
